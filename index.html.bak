@@ -14,8 +14,8 @@
   <iframe src="header.html" frameborder="0" scrolling="no"></iframe>
 
   <section id="home">
-    <h1>Portfolio of Michael Lynch</h1>
-    <p>This is a brief portfolio website to demonstrate to learners</p>
+    <h1>Welcome to Your Portfolio</h1>
+    <p>This is a brief introduction about yourself.</p>
   </section>
   
   <section id="home">

@@ -27,8 +27,7 @@
   <section id="credly-badges">
     <a href="https://www.credly.com/badges/521a386e-64c6-454d-b009-6f1169fcff40/public_url"><img src="Images/cyberops.png" width="150px"></a>
     <a href="https://www.credly.com/badges/1c52c9af-767c-44e2-94fe-0a63bae33526/public_url"><img src="Images/CCNA1.png" width="150px"></a>
-	<a href="https://www.credly.com/badges/36ea226c-c08c-4f23-9aea-03791628d223/public_url"><img src="Images/CCNA2.png" width="150px"></a>
- 
+	<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="36ea226c-c08c-4f23-9aea-03791628d223" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
  </section>
 
   <iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
