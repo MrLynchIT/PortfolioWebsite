@@ -1,5 +1,5 @@
 /* Reset some default browser styles */
-body,
+
 ul,
 li,
 p {
@@ -58,76 +58,116 @@ section p {
 }
 
 /* Homepage styles */
-#home {
-  background-color: #fff;
-  padding: 40px;
-  text-align: center;
+#home, #home-carousel {
+  padding: 50px 0;
 }
 
 #home h1 {
-  font-size: 36px;
-  color: #2b2b2b;
+  color: #007bff;
 }
 
 #home p {
   font-size: 18px;
-  margin-bottom: 20px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.carousel-caption h3 {
+  font-size: 24px;
+}
+
+.carousel-caption p {
+  font-size: 18px;
 }
 
 /* About styles */
 #about {
-  background-color: #f9f9f9;
-  padding: 40px;
+  padding: 50px 0;
 }
 
 #about h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  color: #2b2b2b;
+  color: #007bff;
 }
 
-/* Projects styles */
-#projects {
+.about-content {
   background-color: #fff;
-  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
 
-#projects h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  color: #2b2b2b;
+.about-content p {
+  font-size: 18px;
 }
 
-#projects ul {
-  list-style: none;
-  padding: 0;
+/* Custom styles for project items */
+.project-item {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
-#projects li {
-  margin-bottom: 30px;
+.project-item:hover {
+  transform: translateY(-5px);
 }
 
-#projects h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #2b2b2b;
+.project-item h3 {
+  color: #343a40;
+  margin-top: 0;
 }
+
+.project-item p {
+  color: #6c757d;
+}
+
+.project-item img {
+      max-width: 50%; /* Ensure images don't exceed their container width */
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Remove any extra space around the image */
+      margin: 0 auto; /* Center the image horizontally */
+      border-radius: 10px; /* Add a border radius for rounded corners */
+    }
+
+
 
 /* Contact styles */
-#contact {
-  background-color: #f9f9f9;
-  padding: 40px;
+#contact, #credly-badges {
+  padding: 50px 0;
 }
 
 #contact h2 {
-  font-size: 30px;
+  text-align: center;
+  color: #007bff;
   margin-bottom: 30px;
-  color: #2b2b2b;
 }
 
-#contact p {
+.contact-info {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact-info p {
   font-size: 18px;
-  margin-bottom: 10px;
+}
+
+.twitter-feed, .linkedin-badge {
+  margin-top: 20px;
+}
+
+#credly-badges .row {
+  display: flex;
+  justify-content: center;
+}
+
+#credly-badges .col-md-4 {
+  flex: 0 0 auto;
+  margin: 0 10px;
 }
 
 /* Footer styles */

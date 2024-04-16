@@ -6,29 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 
 <body>
   <iframe src="header.html" frameborder="0" scrolling="no"></iframe>
 
-  <section id="projects">
-    <h2>Projects I Have Worked On</h2>
-    <ul>
-      <li>
-        <h3>Exchange Migration to O365</h3>
-        <p>Migrating from On-Prem Exchange 2010 to Office 365 Exchange including mailboxes and public folders.</p>
-      </li>
-      <li>
-        <h3>Vmware Horizon View Configuration</h3>
-        <p>After an external company set up the basics of the VDI infrastructure it was left me and another Engineer to configure and implement to the entire college.</p>
-      </li>
-      <li>
-        <h3>Printing System Replacement</h3>
-        <p>Replacing old printing infrastructure for new hardware, software and processes</p>
-      </li>
-    </ul>
+  <section id="projects" class="project-section">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects I Have Worked On</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="project-item">
+            <img src="images/o365.jpg" alt="Exchange Migration to O365">
+            <h3><center>Exchange Migration to O365</h3>
+            <p><center>Migrating from On-Prem Exchange 2010 to Office 365 Exchange including mailboxes and public folders.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-item">
+            <img src="images/vmware.png" alt="Vmware Horizon View Configuration">
+            <h3><center>Vmware Horizon View Configuration</h3>
+            <p><center>After an external company set up the basics of the VDI infrastructure it was left me and another Engineer to configure and implement to the entire college.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-item">
+            <img src="images/ricoh.png" alt="Printing System Replacement">
+            <h3><center>Printing System Replacement</h3>
+            <p><center>Replacing old printing infrastructure for new hardware, software and processes</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
   <iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/js/bootstrap.min.js"></script>
 </body>
