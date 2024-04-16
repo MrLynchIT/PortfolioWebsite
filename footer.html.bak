@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <footer>
-  <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+  <div class="container">
+    <p>&copy; <span id="copyright-year"></span> Your Portfolio. All rights reserved.</p>
+  </div>
 </footer>
+<script>
+  // Get the current year
+  var currentYear = new Date().getFullYear();
+
+  // Set the current year as the content of the span element
+  document.getElementById('copyright-year').textContent = currentYear;
+</script>
 </html>
